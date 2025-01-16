@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+</head>
+<body style="background-color: rgb(105, 87, 87);">
+    <h2 style="color: rgb(13, 221, 65);">Git Commands</h2>
+    <pre>
+    1. git clone <Repo https link> [to get the repo in our local]
+    2. git status [This will show if you change anything after cloning]
+        - Your Branch is up to date (If you haven't changed anything)
+        - modified: [a message will show if you change anything so now the github file and your file is different]
+        - Untracked file [When you create a new file in the clone repo. But Git won't track this file]
+        - staged [Added the changes but not committed]
+
+    3. After changing something whether modifying or creating new file we can ADD that. after adding the changes the status will be "staged"
+    4. Then we can add the files which is the middle stage of untracked and commit. To stage the file we use 
+        - git add <file name>
+        - after adding the git status command will give a message as staged
+        - to add all the files at once use <git add .>
+
+    5. Now the Final is to COMMIT using <git commit -m "Write your meaningful message">
+    </pre>
+    <h2 style="color: cadetblue;">general terminal commands</h2>
+    <pre>
+    - ls <list of files available>
+    - ls -a <list of ALL files including hidden files>
+    - cd (to change directory.)
+    </pre>
+
+</body>
+</html>
